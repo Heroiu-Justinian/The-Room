@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #022c43;
+  color: white;
+  font-size: 18px;
+}
+#welcome {
+  margin: 10vh;
+}
+#welcome h2,
+p {
+  text-align: center;
+}
+.jumbotron {
+  opacity: 0.75;
+  color: #393e46;
+  width: 80vw;
+  margin: 10vh auto 25vh auto;
+  text-align: center;
+}
+#upper-part {
+  margin: 10vh auto 20vh auto;
+  max-width: 85vw;
+  text-align: center;
+}
+
+.characterPanel {
+  width: 100%;
+  height: 25vh;
+  background-color: #115173;
+  border: 1px solid black;
+  overflow-x: scroll;
+  margin-left: 50px;
+}
+.characterPanel h2 {
+  margin: 9% 0px 5% 0px;
+}
+.image {
+  height: 45%;
+  width: 40%;
+  background-color: yellow;
+  margin: 10px auto 6% auto;
+}
+input {
+  margin: 10px auto 20px auto;
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: block;
+}
+label {
+  font-size: 1.2rem;
+  color: #ffd700;
+  text-decoration: underline;
+  margin: 10px auto 0px auto;
+}
+.add__btn {
+  font-size: 2.5rem;
+  color: #ffd700;
+  background-color: #115173;
+  border: none;
+}
+.add__btn:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+.summary {
+  margin: 0 auto;
+  min-height: 500px;
+  height: auto;
+}
+.summary .jumbotron {
+  max-width: 65vw;
+  height: 85%;
+}
+.summary h2 {
+  padding-top: 40px;
+}
+.summary p {
+  font-size: 1.3rem;
+  margin-top: 5%;
+  padding: 15px 45px 10px 45px;
+}
+.summary #currentDay {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+#nextDay {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 5% auto;
+  border-radius: 10%;
+  text-align: center;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  color: #ffd700;
+  background-color: #115173;
+}
+#nextDay:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}

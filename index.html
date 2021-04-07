@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+      <div id="welcome">
+          <h2>Welcome to The Room</h2>
+          <p>Before you click away because it looks funcky let me explain what this is all about</p>
+          <div class="jumbotron">This game is a simulation.An accurate one.I've spent the past few months studying human behabiour and I decided to make this game whose very purpose is to show you what happens i ypu put people with different moral traits in the same room for 21 days.No entertaining sources just straight up blank walls,beds,a toilet and enough resources for them to live for the time of the eperiment</div>
+      </div>
+    <div id="upper-part">
+            <div class="container-fluid">
+                    <div class="row">
+                            <div class="col characterPanel" id="no1">
+                              <form><h2>Subject No. 1</h2>
+                                <div class="image"></div>
+                                <div id ="stats-0" class="stats"></div>
+                                <label for="mentalStrength">Mental Strength</label>
+                                <input name="mentalStrength" id="mentalStrength">
+                                <label for="happiness">Happiness</label>
+                                <input name="happiness" id="happiness">
+                                <label for="intelligence">Intelligence</label>
+                                <input name="intelligence" id="intelligence">
+                                <label for="strength">Strength</label>
+                                <input name="strength" id="strength">
+                                <label for="health">Health</label>
+                                <input name="health" id="health">
+                                <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                              </form>
+                                
+                        </div>
+                            <div class="col characterPanel" id="no2"><h2>Subject No. 2</h2>
+                              <div class="image"></div>
+                              <div id ="stats-1" class="stats"></div>
+                              <label for="mentalStrength">Mental Strength</label>
+                              <input name="mentalStrength">
+                              <label for="happiness">Happiness</label>
+                              <input name="happiness">
+                              <label for="intelligence">Intelligence</label>
+                              <input name="intelligence">
+                              <label for="strength">Strength</label>
+                              <input name="strength">
+                              <label for="health">Health</label>
+                              <input name="health">
+                              <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                            </div>
+                            <div class="col characterPanel" id="no3"><h2>Subject No. 3</h2>
+                              <div class="image"></div>
+                              <div id ="stats-2" class="stats"></div>
+                              <label for="mentalStrength">Mental Strength</label>
+                              <input name="mentalStrength">
+                              <label for="happiness">Happiness</label>
+                              <input name="happiness">
+                              <label for="intelligence">Intelligence</label>
+                              <input name="intelligence">
+                              <label for="strength">Strength</label>
+                              <input name="strength">
+                              <label for="health">Health</label>
+                              <input name="health">
+                              <button class="add__btn" id ="one"><i class="ion-ios-checkmark-outline"></i></button>
+                            </div>
+                            <div class="col characterPanel" id="no4"><h2>Subject No. 4</h2>
+                              <div class="image"></div>
+                              <div id ="stats-3" class="stats"></div>
+                              <label for="mentalStrength">Mental Strength</label>
+                              <input name="mentalStrength">
+                              <label for="happiness">Happiness</label>
+                              <input name="happiness">
+                              <label for="intelligence">Intelligence</label>
+                              <input name="intelligence">
+                              <label for="strength">Strength</label>
+                              <input name="strength">
+                              <label for="health">Health</label>
+                              <input name="health">
+                              <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                            </div>
+                          </div>
+            </div>
+    </div>
+
+
+
+    <div class="bottom-part">
+        <div class="summary">
+            <div class="jumbotron"><h2>Today's summary</h2>
+              <p id ="currentDay">Day 0</p>
+            <p id = "summary" class = "summary">Today is the first day of the experiment.The subjects are scared.It's been 5 hours since they have been locked yet nobody has said a word.  NOTE:those are public notes and DO NOT contain any details,only a brief summary of the day.The reader shall understand the situation by the stats of the subjects wich are gonna be public while the experiment is still running.After the end of the experiment the stats of the subjects are gonna be hidden,the summaries are gonna be deleted and there are not going to be any public conclusions.It is left for the reader to decide what conlcusions they might extract from the experiment<br> Good Luck</p>
+            <button id = "nextDay">Next Day</button>
+            </div>
+            
+        </div>
+       
+    </div>
+            
+    
+    
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
